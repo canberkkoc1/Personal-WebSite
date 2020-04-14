@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <section id="about">
+    <div class="col-md-4 col-md-push-2">
+      <ul class="about-data">
+        <li>
+          <div class="inner-abcoin"><i class="fa fa-user"></i></div>
+          <label>Name:</label>
+          <span class="value">Canberk Koc</span>
+          <div class="clear"></div>
+          <hr>
+        </li>
+        <li>
+          <div class="inner-abcoin"><i class="fa fa-calendar"></i></div>
+          <label>Date of birth:</label>
+          <span class="value">January 14, 1994</span>
+          <div class="clear"></div>
+          <hr>
+        </li>
+        <li>
+          <div class="inner-abcoin"><i class="fa fa-map-marker"></i></div>
+          <label>City:</label>
+          <span class="value">Istanbul/Kadikoy</span>
+          <div class="clear"></div>
+          <hr>
+        </li>
+        <li>
+          <div class="inner-abcoin"><i class="fa fa-envelope"></i></div>
+          <label>Email:</label>
+          <span class="value">canberkkoc.94@gmail.com</span>
+          <div class="clear"></div>
+          <hr>
+        </li>
+        <li>
+          <div class="inner-abcoin"><i class="fa fa-mobile"></i></div>
+          <label>Phone:</label>
+          <span class="value">+90 505-875-97-00</span>
+          <div class="clear"></div>
+          <hr>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <link href="{% static 'css/circular.min.css' %}" rel="stylesheet">
+      <img src="{% static "img/cv.png" %}" alt="" class="circular--square" width="600px" align="right" />
+    </div>
+  </section>
+{%  endblock content %}

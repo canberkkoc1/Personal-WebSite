@@ -1,0 +1,70 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canberk Koç Personel</title>
+
+  <!-- Bootstrap -->
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+  <link href="{% static 'css/overwrite.css' %}" rel="stylesheet">
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Personal
+    Theme URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <div class="">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="menu">
+          <div class="logo">
+            <!--<div>
+              <link href="{% static 'css/circular.min.css' %}" rel="stylesheet">
+              <img src="{% static "img/cv.png" %}" alt="" class="circular--square" width="100px" align = "right"/>
+            </div>-->
+            <a href="{% url 'index'%} "><h1>Canberk Koç</h1></a>
+
+            <span>Software Development</span>
+          </div>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation"><a href="/about">About</a></li>
+              <li role="presentation"><a href="/education">Educations</a></li>
+              <li role="presentation"><a href="/project">Projects</a></li>
+              <li role="presentation"><a href="/experince">Experience</a></li>
+              <li role="presentation"><a href="/contact">Contact</a></li>
+            </ul>
+
+          </div>
+          <div class="footer">
+
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Personal
+              -->
+
+            </div>
+
+          </div>
+        </div>
+      </div>
